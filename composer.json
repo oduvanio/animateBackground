@@ -1,0 +1,6 @@
+{
+	"name": "oduvanio/rotator",
+	"require":{
+		"components/jquery": "~2"
+	}
+}
