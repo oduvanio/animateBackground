@@ -1,0 +1,24 @@
+.rotator {
+	position: relative; 	
+	background-size: cover;
+	overflow: hidden;
+}
+.rotator .image {
+	height:100%;
+	width:100%;
+	position: absolute;
+	background-size: cover;
+	-moz-transition: transform 6s ease-out;
+	-o-transition: transform 6s ease-out;
+	-webkit-transition: transform 6s ease-out;
+}
+.rotator .scale {
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-o-transform: scale(1.3);
+}
+.rotator .body {
+	color:white;
+	position:relative;
+	padding:20px;
+}
